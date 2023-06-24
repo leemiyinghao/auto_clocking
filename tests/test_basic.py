@@ -1,7 +1,8 @@
-import pytest
-from utils import log_activity, dump_activities
-from models import Clock
 from datetime import datetime, timedelta
+
+import pytest
+from auto_clocking.models import Clock
+from auto_clocking.utils import dump_activities, log_activity
 
 
 @pytest.fixture(scope="function")

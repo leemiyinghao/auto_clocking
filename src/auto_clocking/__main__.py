@@ -5,8 +5,8 @@ import sys
 
 from dotenv import load_dotenv
 
-from utils import dump_activities, log_activity, is_slack_exist
-from models import Clock
+from auto_clocking.utils import dump_activities, log_activity, is_slack_exist
+from auto_clocking.models import Clock
 
 
 def dump(args: argparse.Namespace) -> None:

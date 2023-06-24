@@ -5,7 +5,7 @@ from typing import Optional
 import psutil
 import urllib.request
 
-from models import Clock
+from auto_clocking.models import Clock
 
 def is_slack_exist() -> bool:
     return (
