@@ -13,6 +13,8 @@ pytest = "*"
 [dev-packages]
 pyright = "*"
 jupyter = "*"
+isort = "*"
+black = "*"
 
 [requires]
 python_version = "3.10"
